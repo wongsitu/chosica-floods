@@ -221,7 +221,7 @@ Press the SETUP button to load the DEM and the buildings shapefile, and to paint
 
 ## THINGS TO NOTICE
 
-There are two parts of the water modelling: the flow of the water when it is in the slope, and the flow of the water when it is in the flat areas. The flow of the water in the slope is controlled by the slope of the terrain, and once the water reaches a flat area, we will move the water to the next non-full patch. This is done by using the "move-to-next-lowest" procedure.
+There are two parts of the water modelling: the flow of the water when it is in the slope, and the flow of the water when it is in the flat areas. The flow of the water in the slope is controlled by the slope of the terrain, and once the water reaches a flat area, we will move the water to the next non-full patch. This is done by using the "move-to-neighbour-patch" procedure.
 
 ## THINGS TO TRY
 
@@ -230,6 +230,8 @@ Try changing the rain-rate slider to see how the flow of the water changes. Try 
 ## EXTENDING THE MODEL
 
 The model can be extended by improving the flow of the water in the flat areas. Currently, the water is moved to the next non-full patch, but this can be improved by using a breadth-first search algorithm to find the shortest path to the next non-full patch. However, this will require a lot of computational power, due to the runtime complexity of the algorithm. Another way to improve the model is to use a more detailed DEM, which will allow us to simulate the flow of water in the streets of the area.
+
+Also, the current model does not taek into account existing water bodies, such as rivers and lakes. This can be improved by using a shapefile of the water bodies in the area, and by using the "move-to-neighbour-patch" procedure to move the water to the next non-full patch.
 
 ## CREDITS AND REFERENCES
 
