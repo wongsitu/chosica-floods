@@ -231,15 +231,19 @@ Try changing the rain-rate slider to see how the flow of the water changes. Try 
 
 The model can be extended by improving the flow of the water in the flat areas. Currently, the water is moved to the next non-full patch, but this can be improved by using a breadth-first search algorithm to find the shortest path to the next non-full patch. However, this will require a lot of computational power, due to the runtime complexity of the algorithm. Another way to improve the model is to use a more detailed DEM, which will allow us to simulate the flow of water in the streets of the area.
 
-## NETLOGO FEATURES
-
-(interesting or unusual features of NetLogo that the model uses, particularly in the Code tab; or where workarounds were needed for missing features)
-
-## RELATED MODELS
-
-(models in the NetLogo Models Library and elsewhere which are of related interest)
-
 ## CREDITS AND REFERENCES
+
+- QGIS.org, %Y. QGIS Geographic Information System. QGIS Association. http://www.qgis.org
+
+- Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+- Wilensky, U. (2006). NetLogo Grand Canyon model. http://ccl.northwestern.edu/netlogo/models/GrandCanyon. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+- Wilensky, U. (2006). GIS Gradient Example. http://ccl.northwestern.edu/netlogo/models/GISGradientExample. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+- DIVA-GIS. Download Data by Country. https://www.diva-gis.org/gdata. Accessed 3 Oct. 2023.
+
+- INSTITUTO NACIONAL DE DEFENSA CIVIL (INDECI). (2005) Mapa tematico de peligros hidrologicos de la ciudad de Chosica - Lima. https://sigrid.cenepred.gob.pe/sigridv3/documento/2779
 
 (a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)
 @#$#@#$#@
