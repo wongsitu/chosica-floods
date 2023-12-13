@@ -9,6 +9,10 @@ The following model attempts to simulate the flow of water in the region of Chos
   <img style="width:500px;" src="./assets/images/netlogo-chosica-flooding.jpg" alt="Netlogo Chosica Flooding"/>
 </div>
 
+<div align="center">
+  <img style="width:500px;" src="./assets/images/chosica-slope.jpg" alt="Netlogo Chosica Flooding"/>
+</div>
+
 <div align="center" style="margin-top: 24px">
   <img style="width:500px;" src="./assets/images/chosica-floods-map.jpg" alt="Netlogo Chosica map"/>
 </div>
