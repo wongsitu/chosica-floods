@@ -4,6 +4,7 @@
 
 The following model attempts to simulate the flow of water in the region of Chosica, Lima, Peru. This area is known for its high risk of landslides, which are caused by the high rainfall in the area. This usually happens when "El Nino" phenomenon occurs, causing the soil to become unstable and the water to flow through the slopes of the mountains.
 
+[Click here](https://www.google.com/maps/place/Lurigancho-Chosica,+Peru/@-11.9428681,-76.7104098,14.75z/data=!4m6!3m5!1s0x9105e813f67f0a1d:0x513d3adfaf686a4b!8m2!3d-12.0096967!4d-76.9053613!16zL20vMDlkanlo?entry=ttu) to view the location of Chosica in Google Maps
 
 <div align="center">
   <img style="width:500px;" src="./assets/images/netlogo-chosica-flooding.jpg" alt="Netlogo Chosica Flooding"/>
